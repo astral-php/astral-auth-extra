@@ -7,7 +7,7 @@ Le core Astral garde une auth simple (`Core\Auth\Auth`). Ce package ajoute
 les garde-fous sans alourdir le framework.
 
 [![PHP](https://img.shields.io/badge/PHP-8.1%E2%80%938.5-777BB4?logo=php&logoColor=white)](https://www.php.net)
-[![Version](https://img.shields.io/badge/version-0.1.0-blue)](./CHANGELOG.md)
+[![Version](https://img.shields.io/badge/version-0.2.0-blue)](./CHANGELOG.md)
 
 > **Statut :** MVP local (Phase C) — pas encore publié sur Packagist.
 

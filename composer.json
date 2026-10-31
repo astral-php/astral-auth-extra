@@ -1,34 +1,35 @@
 {
-  "name": "astral-php/astral-auth-extra",
-  "version": "0.1.0",
-  "description": "Auth avancée pour Astral MVC — throttling login, remember-me, journal des tentatives.",
-  "type": "library",
-  "license": "MIT",
-  "keywords": [
-    "astral",
-    "php",
-    "auth",
-    "throttle",
-    "remember-me",
-    "login"
-  ],
-  "require": {
-    "php": "^8.1"
-  },
-  "require-dev": {
-    "phpunit/phpunit": "^9.6"
-  },
-  "autoload": {
-    "psr-4": {
-      "Astral\\AuthExtra\\": "src/Astral/AuthExtra/"
+    "name": "astral-php/astral-auth-extra",
+    "version": "0.2.0",
+    "description": "Auth avanc\u00e9e pour Astral MVC \u2014 throttling login, remember-me, journal des tentatives.",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "astral",
+        "php",
+        "auth",
+        "throttle",
+        "remember-me",
+        "login"
+    ],
+    "require": {
+        "php": "^8.3",
+        "astral-php/astral-core": "^2.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Astral\\AuthExtra\\": "src/Astral/AuthExtra/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Astral\\AuthExtra\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "phpunit tests/"
     }
-  },
-  "autoload-dev": {
-    "psr-4": {
-      "Astral\\AuthExtra\\Tests\\": "tests/"
-    }
-  },
-  "scripts": {
-    "test": "phpunit tests/"
-  }
 }
